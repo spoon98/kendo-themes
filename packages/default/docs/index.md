@@ -35,10 +35,6 @@ You can apply the Default theme to all Kendo UI for React examples, which demons
 {% theme_preview theme:default %}
 <script async src="{% asset_path theme-preview.js %}"></script>
 {% endplatform_content %}
-{% platform_content vue %}
-{% theme_preview theme:default %}
-<script async src="{% asset_path vue-theme-preview.js %}"></script>
-{% endplatform_content %}
 
 ## Suggested Links
 

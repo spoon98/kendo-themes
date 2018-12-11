@@ -68,10 +68,6 @@ You can apply the Material theme to all Kendo UI for React examples, which demon
 {% theme_preview theme:material %}
 <script async src="{% asset_path theme-preview.js %}"></script>
 {% endplatform_content %}
-{% platform_content vue %}
-{% theme_preview theme:material %}
-<script async src="{% asset_path vue-theme-preview.js %}"></script>
-{% endplatform_content %}
 
 ## Suggested Links
 

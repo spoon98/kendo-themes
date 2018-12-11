@@ -35,10 +35,6 @@ You can apply the Bootstrap theme to all Kendo UI for React examples, which demo
 {% theme_preview theme:bootstrap %}
 <script async src="{% asset_path theme-preview.js %}"></script>
 {% endplatform_content %}
-{% platform_content vue %}
-{% theme_preview theme:bootstrap %}
-<script async src="{% asset_path vue-theme-preview.js %}"></script>
-{% endplatform_content %}
 
 ## Suggested Links
 
