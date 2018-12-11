@@ -58,7 +58,7 @@ The following additional configuration improves the look and feel of the theme i
 The following example previews Kendo UI components which are styled with the Material theme.
 {% endplatform_content %}
 {% platform_content vue %}
-The following example previews Kendo UI components which are styled with the Material theme.
+You can apply the Material theme to all Kendo UI for Vue examples, which demonstrate the behavior of a component, by selecting the theme from the theme-chooser at the top-right corner of the page.
 {% endplatform_content %}
 {% platform_content react %}
 You can apply the Material theme to all Kendo UI for React examples, which demonstrate the behavior of a component, by selecting the theme from the theme-chooser at the top-right corner of the page.

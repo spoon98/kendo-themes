@@ -25,7 +25,7 @@ The Kendo UI Bootstrap theme is available through the @progress/kendo-theme-boot
 The following example previews Kendo UI components which are styled with the Bootstrap theme.
 {% endplatform_content %}
 {% platform_content vue %}
-The following example previews Kendo UI components which are styled with the Bootstrap theme.
+You can apply the Bootstrap theme to all Kendo UI for Vue examples, which demonstrate the behavior of a component, by selecting the theme from the theme-chooser at the top-right corner of the page.
 {% endplatform_content %}
 {% platform_content react %}
 You can apply the Bootstrap theme to all Kendo UI for React examples, which demonstrate the behavior of a component, by selecting the theme from the theme-chooser at the top-right corner of the page.
