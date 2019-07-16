@@ -1,10 +1,5 @@
 @mixin appearance( $what ) {
 
-    // Widget
-    @if ( $what == widget ) {
-        @include appearance_widget;
-    }
-
     // Panels
     @if ( $what == panel ) {
         @include appearance_panel;

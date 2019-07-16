@@ -3,7 +3,11 @@
     .k-block,
     .k-panel {
         @extend %text-selection !optional;
-        @include appearance( widget );
+        @include fill(
+            $panel-text,
+            $panel-bg,
+            $panel-border
+        );
         @include border-radius();
         padding: $panel-padding-y $panel-padding-x;
         border-width: 1px;

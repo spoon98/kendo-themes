@@ -2,14 +2,6 @@ $_widget-imported: false !default;
 
 @if ( $_widget-imported == false ) {
 
-    %appearance_widget {
-        @include fill(
-            $widget-text,
-            $widget-bg,
-            $widget-border
-        );
-    }
-
     %appearance_panel {
         @include fill(
             $panel-text,
@@ -53,8 +45,6 @@ $_widget-imported: false !default;
     $_widget-imported: true;
 
 }
-
-@mixin appearance_widget { @extend %appearance_widget !optional; }
 
 @mixin appearance_panel { @extend %appearance_panel !optional; }
 @mixin appearance_popup { @extend %appearance_popup !optional; }
