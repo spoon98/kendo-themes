@@ -2,6 +2,11 @@
 
     // Spreadsheet
     .k-spreadsheet {
+        @include fill(
+            $panel-text,
+            $panel-bg,
+            $panel-border
+        );
         background-clip: padding-box;
 
         .k-ie11 &,

@@ -8,6 +8,11 @@
     $splitter-selected-text: contrast-wcag( $splitter-selected-bg ) !default;
 
     .k-splitter {
+        @include fill(
+            $panel-text,
+            $panel-bg,
+            $panel-border
+        );
         background-clip: padding-box;
 
         .k-ie11 &,

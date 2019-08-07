@@ -1285,9 +1285,9 @@ $adaptive-scheduler-base-text: inherit !default;
 
 
 // PDF viewer
-$pdf-viewer-bg: null !default;
-$pdf-viewer-text: null !default;
-$pdf-viewer-border: null !default;
+$pdf-viewer-bg: $panel-bg !default;
+$pdf-viewer-text: $panel-text !default;
+$pdf-viewer-border: $panel-border !default;
 
 $pdf-viewer-canvas-bg: $chat-bg !default;
 $pdf-viewer-canvas-text: null !default;

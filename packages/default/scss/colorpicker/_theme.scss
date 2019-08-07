@@ -1,6 +1,11 @@
 @include exports("colorpicker/theme") {
 
     .k-colorpicker {
+        @include fill(
+            $panel-text,
+            $panel-bg,
+            $panel-border
+        );
 
         // Normal state
         .k-picker-wrap {

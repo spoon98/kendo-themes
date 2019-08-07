@@ -1,5 +1,13 @@
 @include exports("adaptive/theme") {
 
+    .k-pane-wrapper {
+        @include fill(
+            $panel-text,
+            $panel-bg,
+            $panel-border
+        );
+    }
+
     .k-pane-wrapper .k-pane {
 
         > .k-view > .k-content {
