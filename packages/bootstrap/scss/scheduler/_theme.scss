@@ -1,7 +1,13 @@
 @include exports("scheduler/theme") {
 
     // Appearance
-    .k-scheduler {}
+    .k-scheduler {
+        @include fill(
+            $panel-text,
+            $panel-bg,
+            $panel-border
+        );
+    }
 
     // Current time
     .k-current-time {

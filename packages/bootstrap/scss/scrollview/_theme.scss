@@ -3,6 +3,11 @@
     // refactor when https://github.com/telerik/kendo-angular-scrollview/issues/130 is done
     kendo-scrollview.k-scrollview-wrap,
     div.k-scrollview {
+        @include fill(
+            $panel-text,
+            $panel-bg,
+            $panel-border
+        );
 
         .k-scrollview-pageable,
         .k-scrollview-nav {

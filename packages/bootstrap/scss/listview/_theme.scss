@@ -3,6 +3,12 @@
 @include exports("listview/theme/bootstrap") {
 
     .k-listview {
+        @include fill(
+            $panel-text,
+            $panel-bg,
+            $panel-border
+        );
+
         > .k-state-selected {
             border-color: $selected-border;
         }
