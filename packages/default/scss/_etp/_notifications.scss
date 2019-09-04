@@ -1,0 +1,10 @@
+// Toast Popups
+kendo-popup {
+    max-width: 230px;
+    &.tt {
+        &--light .k-tooltip {
+            color: $text-color;
+            background-color: $bg-color;
+        }
+    }
+}

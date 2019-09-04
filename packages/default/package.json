@@ -26,7 +26,7 @@
     "watch": "gulp sass:watch",
     "embed-assets": "gulp assets",
     "swatches": "gulp swatches",
-    "test": "npm run lint && npm run build && npm run api-check",
+    "test": "npm run lint && npm run build",
     "twbs-compat": "kendotheme build --file ./build/twbs-compat.scss",
     "prepublishOnly": "npm run build && npm run swatches"
   },
