@@ -6,7 +6,6 @@
 @import "ripple";
 @import "popup";
 
-
 // Data management
 @import "pager";
 @import "grid";
@@ -16,7 +15,6 @@
 @import "scrollview";
 @import "listview";
 @import "filter";
-
 
 // Editors
 @import "autocomplete";
@@ -42,21 +40,17 @@
 @import "dataviz";
 @import "map";
 
-
 // Barcodes
 @import "barcode";
 @import "qrcode";
-
 
 // Scheduling
 @import "calendar";
 @import "gantt";
 @import "scheduler";
 
-
 // Media
 @import "mediaplayer";
-
 
 // Layout
 @import "dialog";
@@ -65,7 +59,6 @@
 @import "splitter";
 @import "tooltip";
 @import "window";
-
 
 // Navigation
 @import "button";
@@ -76,11 +69,9 @@
 @import "treeview";
 @import "drawer";
 
-
 // Interactivity & UX
 @import "progressbar";
 @import "scroller";
-
 
 // Styling & Content
 @import "styling";
@@ -88,10 +79,35 @@
 @import "card";
 @import "timeline";
 
-
 // Chat
 @import "chat";
 
-
 // PDF Viewer
 @import "pdf-viewer";
+
+// ********** etp-portal imports start *****************
+// @import "variables";
+// @import "mixins";
+
+// @import "common/all";
+// @import "ripple";
+// @import "popup";
+
+// // import each component's specific styling here:
+// @import "button";
+// @import "tooltip";
+// @import "pager";
+// @import "grid";
+// @import "panelbar";
+// @import "switch";
+// @import "input";
+// @import "numerictextbox";
+// @import "validator";
+// @import "maskedtextbox";
+
+// ********** etp-portal imports end *****************
+
+// custom overrides for kendo class & etp custom classes can go in the '_etp' folder
+// Partials
+@import "_etp/buttons";
+@import "_etp/notifications";

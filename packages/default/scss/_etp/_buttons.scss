@@ -1,0 +1,106 @@
+.k-button {
+    @include border-radius($button-border-radius);
+    border-style: none !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    &-icontext {
+        .k-icon,
+        .k-image,
+        .k-sprite {
+            margin: 0 4px 0 0px;
+        }
+
+        .k-rtl &,
+        &[dir="rtl"] {
+            .k-icon,
+            .k-image,
+            .k-sprite {
+                margin: 0 4px 0 0px;
+            }
+        }
+    }
+
+    &.etp-button {
+        &--card {
+            height: 49px;
+            width: 120px;
+        }
+        &--icon-right {
+            & span {
+                order: 1;
+                margin: 2px 2px 2px 8px;
+            }
+        }
+    }
+    &-icon {
+        width: 33px;
+        height: 33px;
+    }
+}
+
+// Flat button
+.k-button-flat {
+    font-family: $base-font-semi-bold;
+    &:focus,
+    &.k-state-focused {
+        &::after {
+            box-shadow: none;
+        }
+    }
+}
+
+// Unique Buttons
+kendo-splitbutton.etp-button--split-button.k-widget.k-split-button.k-button-group {
+    background-color: #ffffff;
+    button {
+        height: 33px !important;
+        @include appearance(primary-button);
+
+        // Hovoer state
+        &:hover,
+        &.k-state-hover {
+            @include appearance(hovered-primary-button);
+        }
+
+        // Active state
+        &:active,
+        &.k-state-active {
+            @include appearance(pressed-primary-button);
+        }
+
+        // Selected state
+        &.k-state-selected {
+            @include appearance(pressed-primary-button);
+        }
+    }
+    button[ng-reflect-icon-class] {
+        padding-right: 22px;
+        margin-right: 2px;
+    }
+    kendo-popup {
+        width: inherit;
+        .k-list .k-item.k-state-focused {
+            box-shadow: none;
+        }
+        .k-list {
+            padding: 0.643em 0 0.5em 0;
+            min-width: 163px;
+            min-height: 0;
+            background-color: #ffffff;
+            color: $secondary-button-color;
+        }
+        li.k-item {
+            padding: 0 0 0 16px;
+        }
+        .k-item {
+            min-height: 25px;
+            &:hover {
+                background-color: #f5f5f5;
+            }
+        }
+    }
+}
+
+.etp-button--circle {
+    border-radius: 50% !important;
+}
