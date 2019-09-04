@@ -10,6 +10,7 @@
     "karma-chrome-launcher": "^2.2.0",
     "karma-qunit": "^1.2.1",
     "lerna": "^2.4.0",
+    "live-server": "^1.2.1",
     "pastshots": "^1.4.1",
     "qunitjs": "^2.4.1",
     "semantic-release": "^12.4.1",
@@ -29,30 +30,14 @@
     "karma-watch": "karma start --auto-watch --no-single-run",
     "karma-single": "karma start --no-auto-watch --single-run --browsers ChromeHeadless",
     "serve-integrity": "http-server ./tests/integrity",
-    "serve-visual": "http-server ./tests/visual"
+    "serve-visual": "live-server"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     },
     "ghooks": {
-      "pre-commit": "npm run lint",
-      "commit-msg": "validate-commit-msg"
-    },
-    "validate-commit-msg": {
-      "types": [
-        "feat",
-        "fix",
-        "docs",
-        "style",
-        "refactor",
-        "perf",
-        "test",
-        "chore",
-        "revert"
-      ],
-      "warnOnFail": false,
-      "maxSubjectLength": 100
+      "pre-commit": "npm run lint"
     }
   },
   "dependencies": {}
