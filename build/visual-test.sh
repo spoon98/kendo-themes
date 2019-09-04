@@ -47,8 +47,6 @@ commit_changes() {
 }
 
 ./build/create-screenshots.sh default
-./build/create-screenshots.sh bootstrap
-./build/create-screenshots.sh material
 
 has_changes=0
 has_untracked=0
