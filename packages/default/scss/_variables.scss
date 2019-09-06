@@ -13,6 +13,12 @@ $base-font-bold: "NotoSans-Bold";
 $base-font-semi-bold: "NotoSans-SemiBold";
 $base-font-italic: "NotoSans-Italic";
 
+// Selection & Hover
+$hover-color: #e5f1f7;
+
+// Component Colors
+$etp-grid-text-color: #797a7c;
+
 // Custom Code End *******************************************************************************************************************
 
 // Options
@@ -509,7 +515,7 @@ $grid-cell-padding-y: $grid-padding-y !default;
 $grid-cell-horizontal-border-width: 0 !default;
 $grid-cell-vertical-border-width: 1px !default;
 $grid-bg: $panel-bg !default;
-$grid-text: $panel-text !default;
+$grid-text: $etp-grid-text-color !default; // $panel-text !default;
 $grid-border: $panel-border !default;
 $grid-header-bg: $header-bg !default;
 $grid-header-text: $header-text !default;
@@ -521,10 +527,10 @@ $grid-group-drag-clue-line-height: 1.5 !default;
 // / The background of alternating rows.
 // / Set to transparent to remove the row stripes.
 // / @group grid
-$grid-alt-bg: rgba(contrast-wcag($grid-bg), 0.04) !default;
+$grid-alt-bg: $grid-bg; // rgba(contrast-wcag($grid-bg), 0.04) !default;
 $grid-alt-text: $grid-text !default;
 $grid-alt-border: $grid-border !default;
-$grid-hovered-bg: darken($grid-bg, 7%) !default;
+$grid-hovered-bg: $hover-color !default;
 $grid-hovered-text: $grid-text !default;
 $grid-hovered-border: $grid-border !default;
 $grid-selected-bg: rgba($selected-bg, 0.25) !default;
