@@ -1104,7 +1104,7 @@ $spreadsheet-drawing-handle-bg: $accent !default;
 $spreadsheet-drawing-handle-border-radius: $border-radius-lg !default;
 $spreadsheet-drawing-outline-style: solid !default;
 $spreadsheet-drawing-outline-width: 2px !default;
-$spreadsheet-drawing-anchor-bg: rgba($header-selected-bg, 0.25) !default;
+$spreadsheet-drawing-anchor-bg: red; // rgba($header-selected-bg, 0.25) !default;
 
 // Filter
 $filter-padding-x: $padding-x !default;
